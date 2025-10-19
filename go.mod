@@ -4,8 +4,12 @@ go 1.25.0
 
 require (
 	github.com/cloudwego/hertz v0.10.2
+	github.com/go-redis/redis/v7 v7.4.1
 	golang.org/x/crypto v0.41.0
 	google.golang.org/protobuf v1.34.1
+	gorm.io/driver/mysql v1.6.0
+	gorm.io/gorm v1.30.0
+	gorm.io/plugin/opentracing v0.0.0-20211220013347-7d2b2af23560
 )
 
 require (
@@ -17,7 +21,6 @@ require (
 	github.com/cloudwego/gopkg v0.1.4 // indirect
 	github.com/cloudwego/netpoll v0.7.0 // indirect
 	github.com/fsnotify/fsnotify v1.5.4 // indirect
-	github.com/go-redis/redis/v7 v7.4.1 // indirect
 	github.com/go-sql-driver/mysql v1.8.1 // indirect
 	github.com/golang/protobuf v1.5.0 // indirect
 	github.com/jinzhu/inflection v1.0.0 // indirect
@@ -35,7 +38,4 @@ require (
 	golang.org/x/arch v0.0.0-20210923205945-b76863e36670 // indirect
 	golang.org/x/sys v0.35.0 // indirect
 	golang.org/x/text v0.28.0 // indirect
-	gorm.io/driver/mysql v1.6.0 // indirect
-	gorm.io/gorm v1.30.0 // indirect
-	gorm.io/plugin/opentracing v0.0.0-20211220013347-7d2b2af23560 // indirect
 )
